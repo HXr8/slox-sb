@@ -19,86 +19,112 @@
       "user_id": "@grace:slox.local",
       "display_name": "Grace",
       "title": "RM / Relationship Manager",
-      "persona_path": "/srv/slox_sb/personas/grace/SOUL.md"
+      "persona_path": "/srv/slox_sb/personas/grace/SOUL.md",
+      "handle": "grace"
     },
     {
       "user_id": "@marcus:slox.local",
       "display_name": "Marcus",
       "title": "IC - Public Markets",
-      "persona_path": "/srv/slox_sb/personas/marcus/SOUL.md"
+      "persona_path": "/srv/slox_sb/personas/marcus/SOUL.md",
+      "handle": "marcus"
     },
     {
       "user_id": "@julia:slox.local",
       "display_name": "Julia",
       "title": "IC - Private Assets",
-      "persona_path": "/srv/slox_sb/personas/julia/SOUL.md"
+      "persona_path": "/srv/slox_sb/personas/julia/SOUL.md",
+      "handle": "julia"
     },
     {
       "user_id": "@doria:slox.local",
       "display_name": "Dorian",
       "title": "IC - Structured Products",
-      "persona_path": "/srv/slox_sb/personas/doria/SOUL.md"
+      "persona_path": "/srv/slox_sb/personas/doria/SOUL.md",
+      "handle": "doria"
     },
     {
       "user_id": "@catherine:slox.local",
       "display_name": "Catherine",
       "title": "Wealth Planner",
-      "persona_path": "/srv/slox_sb/personas/catherine/SOUL.md"
+      "persona_path": "/srv/slox_sb/personas/catherine/SOUL.md",
+      "handle": "catherine"
     },
     {
       "user_id": "@oscar:slox.local",
       "display_name": "Oscar",
       "title": "Credit & Lending",
-      "persona_path": "/srv/slox_sb/personas/oscar/SOUL.md"
+      "persona_path": "/srv/slox_sb/personas/oscar/SOUL.md",
+      "handle": "oscar"
     },
     {
       "user_id": "@nadia:slox.local",
       "display_name": "Nadia",
       "title": "Insurance & Protection",
-      "persona_path": "/srv/slox_sb/personas/nadia/SOUL.md"
+      "persona_path": "/srv/slox_sb/personas/nadia/SOUL.md",
+      "handle": "nadia"
     },
     {
       "user_id": "@victor:slox.local",
       "display_name": "Victor",
       "title": "Risk & Compliance / Adjudicator",
       "persona_path": "/srv/slox_sb/personas/victor/SOUL.md",
-      "is_adjudicator": true
+      "is_adjudicator": true,
+      "handle": "victor"
     },
     {
       "user_id": "@xavier:slox.local",
       "display_name": "Xavier",
       "title": "Cross-Border / Tax Treaties",
-      "persona_path": "/srv/slox_sb/personas/xavier/SOUL.md"
+      "persona_path": "/srv/slox_sb/personas/xavier/SOUL.md",
+      "handle": "xavier"
     },
     {
       "user_id": "@seraphina:slox.local",
       "display_name": "Seraphina",
       "title": "Sales & Trading",
-      "persona_path": "/srv/slox_sb/personas/seraphina/SOUL.md"
+      "persona_path": "/srv/slox_sb/personas/seraphina/SOUL.md",
+      "handle": "seraphina"
     }
   ],
   "synthesis_agent": {
     "user_id": "@ava:slox.local",
     "display_name": "Ava",
-    "persona_path": "/srv/slox_sb/personas/ava/SOUL.md"
+    "persona_path": "/srv/slox_sb/personas/ava/SOUL.md",
+    "handle": "ava"
   },
   "rooms": {
     "debate_room": "#pb-debate:slox.local",
     "advisory_room": "#pb-advisory:slox.local",
-    "report_room": "#pb-report:slox.local"
+    "synthesis_room": "#pb-synthesis:slox.local",
+    "synthesis_room_alias": "#pb-synthesis:slox.local"
   },
   "room_agents": {
     "#pb-debate:slox.local": [
-      "@grace:slox.local", "@marcus:slox.local", "@julia:slox.local",
-      "@doria:slox.local", "@catherine:slox.local", "@oscar:slox.local",
-      "@nadia:slox.local", "@victor:slox.local", "@xavier:slox.local",
-      "@seraphina:slox.local", "@ava:slox.local"
+      "@grace:slox.local",
+      "@marcus:slox.local",
+      "@julia:slox.local",
+      "@doria:slox.local",
+      "@catherine:slox.local",
+      "@oscar:slox.local",
+      "@nadia:slox.local",
+      "@victor:slox.local",
+      "@xavier:slox.local",
+      "@seraphina:slox.local",
+      "@ava:slox.local"
     ],
     "#pb-advisory:slox.local": [
-      "@grace:slox.local", "@marcus:slox.local", "@julia:slox.local",
-      "@doria:slox.local", "@catherine:slox.local", "@oscar:slox.local",
-      "@nadia:slox.local", "@victor:slox.local", "@xavier:slox.local",
-      "@seraphina:slox.local", "@ava:slox.local"
+      "@grace:slox.local",
+      "@marcus:slox.local",
+      "@julia:slox.local",
+      "@doria:slox.local",
+      "@catherine:slox.local",
+      "@oscar:slox.local",
+      "@nadia:slox.local",
+      "@victor:slox.local",
+      "@xavier:slox.local",
+      "@seraphina:slox.local",
+      "@ava:slox.local"
     ],
     "#pb-report:slox.local": [
       "@ava:slox.local"
@@ -114,49 +140,80 @@
     },
     "SLOX IC:": {
       "room": "#pb-advisory:slox.local",
-      "agents": ["@marcus:slox.local", "@julia:slox.local", "@doria:slox.local", "@oscar:slox.local", "@seraphina:slox.local", "@victor:slox.local"],
+      "agents": [
+        "@marcus:slox.local",
+        "@julia:slox.local",
+        "@doria:slox.local",
+        "@oscar:slox.local",
+        "@seraphina:slox.local",
+        "@victor:slox.local"
+      ],
       "cognitive_graph": true,
       "adjudicator": "@victor:slox.local",
       "description": "Investment committee review"
     },
     "SLOX WP:": {
       "room": "#pb-advisory:slox.local",
-      "agents": ["@catherine:slox.local", "@grace:slox.local", "@xavier:slox.local", "@victor:slox.local"],
+      "agents": [
+        "@catherine:slox.local",
+        "@grace:slox.local",
+        "@xavier:slox.local",
+        "@victor:slox.local"
+      ],
       "cognitive_graph": false,
       "adjudicator": "@victor:slox.local",
       "description": "Wealth planning deep-dive"
     },
     "SLOX CREDIT:": {
       "room": "#pb-advisory:slox.local",
-      "agents": ["@oscar:slox.local", "@grace:slox.local", "@catherine:slox.local", "@victor:slox.local"],
+      "agents": [
+        "@oscar:slox.local",
+        "@grace:slox.local",
+        "@catherine:slox.local",
+        "@victor:slox.local"
+      ],
       "cognitive_graph": false,
       "adjudicator": "@victor:slox.local",
       "description": "Credit & lending solution"
     },
     "SLOX INS:": {
       "room": "#pb-advisory:slox.local",
-      "agents": ["@nadia:slox.local", "@grace:slox.local", "@catherine:slox.local", "@victor:slox.local"],
+      "agents": [
+        "@nadia:slox.local",
+        "@grace:slox.local",
+        "@catherine:slox.local",
+        "@victor:slox.local"
+      ],
       "cognitive_graph": false,
       "adjudicator": "@victor:slox.local",
       "description": "Insurance & protection review"
     },
     "SLOX RISK:": {
       "room": "#pb-advisory:slox.local",
-      "agents": ["@victor:slox.local", "@grace:slox.local"],
+      "agents": [
+        "@victor:slox.local",
+        "@grace:slox.local"
+      ],
       "cognitive_graph": false,
       "adjudicator": "@victor:slox.local",
       "description": "Risk sweep / adverse news scan"
     },
     "SLOX COMPLIANCE:": {
       "room": "#pb-advisory:slox.local",
-      "agents": ["@victor:slox.local"],
+      "agents": [
+        "@victor:slox.local"
+      ],
       "cognitive_graph": false,
       "adjudicator": "@victor:slox.local",
       "description": "Compliance audit / regulatory review"
     },
     "SLOX S&T:": {
       "room": "#pb-advisory:slox.local",
-      "agents": ["@seraphina:slox.local", "@marcus:slox.local", "@victor:slox.local"],
+      "agents": [
+        "@seraphina:slox.local",
+        "@marcus:slox.local",
+        "@victor:slox.local"
+      ],
       "cognitive_graph": false,
       "adjudicator": "@victor:slox.local",
       "description": "Market depth and execution analysis"
@@ -180,7 +237,12 @@
   "market_data": {
     "confidence_tag_default": "DELAYED_15M",
     "max_staleness_seconds": 3600,
-    "free_sources": ["yfinance", "fred", "exchangeratesapi", "trace"],
+    "free_sources": [
+      "yfinance",
+      "fred",
+      "exchangeratesapi",
+      "trace"
+    ],
     "fallback_to_synthetic": true
   }
 }
