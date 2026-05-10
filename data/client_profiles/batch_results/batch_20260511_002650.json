@@ -1,0 +1,32 @@
+{
+  "batch_id": "20260511_002650",
+  "filter": {
+    "random": 2,
+    "archetype": null,
+    "aum_tier": null,
+    "uuid": null,
+    "min_aum": null,
+    "max_aum": null,
+    "nationality": null
+  },
+  "total": 2,
+  "completed": 0,
+  "timeout": 0,
+  "errors": 0,
+  "results": [
+    {
+      "client_uuid": "ee8c63ad-d408-47f5-81b0-d3a34dd67a82",
+      "full_name": "Amelie Chen",
+      "status": "previewed",
+      "task_text": "SLOX TASK: Athlete Entertainer \u2014 Amelie Chen, 80, Germany, resident Germany. AUM $127,601,868. Risk profile: moderate_aggressive. Current allocation: Public Equity 32%, Fixed Income 25%, Cash 10%, Private Equity 8%. Wealth source: career_earnings (2020). Existing advisory: full_service_broker. Marital status: single, 0 dependents. Recent life events: new_business (minor).\n\nScope: Short career peak planning, IP monetization, bond/insurance for future income, asset protection trust."
+    },
+    {
+      "client_uuid": "2c387848-e9ea-4e16-bcc4-ec87a6cb60ac",
+      "full_name": "Robert Koch",
+      "status": "previewed",
+      "task_text": "SLOX TASK: Multi Gen Family Office \u2014 Robert Koch, 31, Other, resident Other. AUM $2,347,721,232. Risk profile: moderate_conservative. Current allocation: Private Equity 22%, Public Equity 20%, Fixed Income 15%, Real Assets 15%. Wealth source: inherited (1962). Existing advisory: none. Marital status: married, 3 dependents. Recent life events: business_sale (major); relocation (minor); divorce (minor).\n\nScope: Family office structuring, next-gen education, governance framework, cross-border optimization."
+    }
+  ],
+  "run_duration_s": 0,
+  "timestamp": "2026-05-10T16:26:50.626211+00:00"
+}

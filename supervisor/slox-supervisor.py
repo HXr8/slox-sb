@@ -174,7 +174,24 @@ def read_creds():
     return rows
 
 
+TOKEN_CACHE_FILE = ROOT / "local" / "slox_tokens.csv"
+
+
 def login(handle, creds):
+    """Login with token cache fallback. Prefer cached tokens to avoid rate limits."""
+    # Try loading from token cache
+    token_cache = {}
+    try:
+        with open(TOKEN_CACHE_FILE) as f:
+            for line in f:
+                line = line.strip()
+                if "," in line:
+                    h, t = line.split(",", 1)
+                    token_cache[h] = t
+    except Exception:
+        pass
+    if handle in token_cache:
+        return token_cache[handle]
     password = creds[handle]["password"]
     payload = matrix(
         "POST",

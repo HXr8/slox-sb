@@ -20,49 +20,56 @@
       "display_name": "Grace",
       "title": "RM / Relationship Manager",
       "persona_path": "/srv/slox_sb/personas/grace/SOUL.md",
-      "handle": "grace"
+      "handle": "grace",
+      "role_name": "RM / Relationship Manager"
     },
     {
       "user_id": "@marcus:slox.local",
       "display_name": "Marcus",
       "title": "IC - Public Markets",
       "persona_path": "/srv/slox_sb/personas/marcus/SOUL.md",
-      "handle": "marcus"
+      "handle": "marcus",
+      "role_name": "IC - Public Markets"
     },
     {
       "user_id": "@julia:slox.local",
       "display_name": "Julia",
       "title": "IC - Private Assets",
       "persona_path": "/srv/slox_sb/personas/julia/SOUL.md",
-      "handle": "julia"
+      "handle": "julia",
+      "role_name": "IC - Private Assets"
     },
     {
       "user_id": "@doria:slox.local",
       "display_name": "Dorian",
       "title": "IC - Structured Products",
       "persona_path": "/srv/slox_sb/personas/doria/SOUL.md",
-      "handle": "doria"
+      "handle": "doria",
+      "role_name": "IC - Structured Products"
     },
     {
       "user_id": "@catherine:slox.local",
       "display_name": "Catherine",
       "title": "Wealth Planner",
       "persona_path": "/srv/slox_sb/personas/catherine/SOUL.md",
-      "handle": "catherine"
+      "handle": "catherine",
+      "role_name": "Wealth Planner"
     },
     {
       "user_id": "@oscar:slox.local",
       "display_name": "Oscar",
       "title": "Credit & Lending",
       "persona_path": "/srv/slox_sb/personas/oscar/SOUL.md",
-      "handle": "oscar"
+      "handle": "oscar",
+      "role_name": "Credit & Lending"
     },
     {
       "user_id": "@nadia:slox.local",
       "display_name": "Nadia",
       "title": "Insurance & Protection",
       "persona_path": "/srv/slox_sb/personas/nadia/SOUL.md",
-      "handle": "nadia"
+      "handle": "nadia",
+      "role_name": "Insurance & Protection"
     },
     {
       "user_id": "@victor:slox.local",
@@ -70,28 +77,32 @@
       "title": "Risk & Compliance / Adjudicator",
       "persona_path": "/srv/slox_sb/personas/victor/SOUL.md",
       "is_adjudicator": true,
-      "handle": "victor"
+      "handle": "victor",
+      "role_name": "Risk & Compliance / Adjudicator"
     },
     {
       "user_id": "@xavier:slox.local",
       "display_name": "Xavier",
       "title": "Cross-Border / Tax Treaties",
       "persona_path": "/srv/slox_sb/personas/xavier/SOUL.md",
-      "handle": "xavier"
+      "handle": "xavier",
+      "role_name": "Cross-Border / Tax Treaties"
     },
     {
       "user_id": "@seraphina:slox.local",
       "display_name": "Seraphina",
       "title": "Sales & Trading",
       "persona_path": "/srv/slox_sb/personas/seraphina/SOUL.md",
-      "handle": "seraphina"
+      "handle": "seraphina",
+      "role_name": "Sales & Trading"
     }
   ],
   "synthesis_agent": {
     "user_id": "@ava:slox.local",
     "display_name": "Ava",
     "persona_path": "/srv/slox_sb/personas/ava/SOUL.md",
-    "handle": "ava"
+    "handle": "ava",
+    "role_name": "Synthesis Agent / Final Consolidator"
   },
   "rooms": {
     "debate_room": "#pb-debate:slox.local",
