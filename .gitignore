@@ -1,0 +1,8 @@
+local/
+__pycache__/
+*.pyc
+.env
+*.db
+*.db-journal
+*.db-wal
+node_modules/

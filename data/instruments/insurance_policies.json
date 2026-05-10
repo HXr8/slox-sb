@@ -1,0 +1,502 @@
+[
+  {
+    "id": "IN0000",
+    "type": "Indexed Annuity",
+    "guaranteed_min_return": 0.037,
+    "projected_return": 0.034,
+    "min_premium": 50000,
+    "currency": "USD",
+    "surrender_schedule_years": 10,
+    "carrier_rating": "A+"
+  },
+  {
+    "id": "IN0001",
+    "type": "Indexed Annuity",
+    "guaranteed_min_return": 0.026,
+    "projected_return": 0.03,
+    "min_premium": 50000,
+    "currency": "USD",
+    "surrender_schedule_years": 7,
+    "carrier_rating": "AA-"
+  },
+  {
+    "id": "IN0002",
+    "type": "Term Life",
+    "guaranteed_min_return": 0,
+    "projected_return": 0.066,
+    "min_premium": 10000,
+    "currency": "USD",
+    "surrender_schedule_years": 10,
+    "carrier_rating": "A+"
+  },
+  {
+    "id": "IN0003",
+    "type": "Indexed Annuity",
+    "guaranteed_min_return": 0.019,
+    "projected_return": 0.067,
+    "min_premium": 50000,
+    "currency": "USD",
+    "surrender_schedule_years": 5,
+    "carrier_rating": "AA-"
+  },
+  {
+    "id": "IN0004",
+    "type": "Offshore Life Wrapper",
+    "guaranteed_min_return": 0,
+    "projected_return": 0.05,
+    "min_premium": 1000000,
+    "currency": "USD",
+    "surrender_schedule_years": 10,
+    "carrier_rating": "AA+"
+  },
+  {
+    "id": "IN0005",
+    "type": "Universal Life",
+    "guaranteed_min_return": 0,
+    "projected_return": 0.044,
+    "min_premium": 25000,
+    "currency": "USD",
+    "surrender_schedule_years": 10,
+    "carrier_rating": "A-"
+  },
+  {
+    "id": "IN0006",
+    "type": "Variable Annuity",
+    "guaranteed_min_return": 0.02,
+    "projected_return": 0.036,
+    "min_premium": 50000,
+    "currency": "USD",
+    "surrender_schedule_years": 15,
+    "carrier_rating": "A+"
+  },
+  {
+    "id": "IN0007",
+    "type": "Key Person Insurance",
+    "guaranteed_min_return": 0,
+    "projected_return": 0.064,
+    "min_premium": 500000,
+    "currency": "USD",
+    "surrender_schedule_years": 5,
+    "carrier_rating": "A"
+  },
+  {
+    "id": "IN0008",
+    "type": "Whole Life",
+    "guaranteed_min_return": 0,
+    "projected_return": 0.062,
+    "min_premium": 50000,
+    "currency": "USD",
+    "surrender_schedule_years": 15,
+    "carrier_rating": "A-"
+  },
+  {
+    "id": "IN0009",
+    "type": "Variable Annuity",
+    "guaranteed_min_return": 0.01,
+    "projected_return": 0.055,
+    "min_premium": 50000,
+    "currency": "USD",
+    "surrender_schedule_years": 5,
+    "carrier_rating": "A-"
+  },
+  {
+    "id": "IN0010",
+    "type": "Fixed Annuity",
+    "guaranteed_min_return": 0.037,
+    "projected_return": 0.068,
+    "min_premium": 100000,
+    "currency": "USD",
+    "surrender_schedule_years": 10,
+    "carrier_rating": "A"
+  },
+  {
+    "id": "IN0011",
+    "type": "Variable Annuity",
+    "guaranteed_min_return": 0.019,
+    "projected_return": 0.059,
+    "min_premium": 50000,
+    "currency": "USD",
+    "surrender_schedule_years": 10,
+    "carrier_rating": "AA"
+  },
+  {
+    "id": "IN0012",
+    "type": "Long-Term Care",
+    "guaranteed_min_return": 0,
+    "projected_return": 0.071,
+    "min_premium": 10000,
+    "currency": "USD",
+    "surrender_schedule_years": 7,
+    "carrier_rating": "AA-"
+  },
+  {
+    "id": "IN0013",
+    "type": "Fixed Annuity",
+    "guaranteed_min_return": 0.034,
+    "projected_return": 0.069,
+    "min_premium": 100000,
+    "currency": "USD",
+    "surrender_schedule_years": 10,
+    "carrier_rating": "A+"
+  },
+  {
+    "id": "IN0014",
+    "type": "Variable Annuity",
+    "guaranteed_min_return": 0.026,
+    "projected_return": 0.056,
+    "min_premium": 50000,
+    "currency": "USD",
+    "surrender_schedule_years": 7,
+    "carrier_rating": "AA-"
+  },
+  {
+    "id": "IN0015",
+    "type": "Indexed Annuity",
+    "guaranteed_min_return": 0.022,
+    "projected_return": 0.043,
+    "min_premium": 50000,
+    "currency": "USD",
+    "surrender_schedule_years": 10,
+    "carrier_rating": "AA+"
+  },
+  {
+    "id": "IN0016",
+    "type": "Variable Universal Life",
+    "guaranteed_min_return": 0,
+    "projected_return": 0.064,
+    "min_premium": 25000,
+    "currency": "USD",
+    "surrender_schedule_years": 7,
+    "carrier_rating": "A+"
+  },
+  {
+    "id": "IN0017",
+    "type": "Long-Term Care",
+    "guaranteed_min_return": 0,
+    "projected_return": 0.073,
+    "min_premium": 10000,
+    "currency": "USD",
+    "surrender_schedule_years": 5,
+    "carrier_rating": "AA-"
+  },
+  {
+    "id": "IN0018",
+    "type": "Term Life",
+    "guaranteed_min_return": 0,
+    "projected_return": 0.074,
+    "min_premium": 10000,
+    "currency": "USD",
+    "surrender_schedule_years": 7,
+    "carrier_rating": "AA"
+  },
+  {
+    "id": "IN0019",
+    "type": "Variable Annuity",
+    "guaranteed_min_return": 0.022,
+    "projected_return": 0.068,
+    "min_premium": 50000,
+    "currency": "USD",
+    "surrender_schedule_years": 5,
+    "carrier_rating": "AA+"
+  },
+  {
+    "id": "IN0020",
+    "type": "Universal Life",
+    "guaranteed_min_return": 0,
+    "projected_return": 0.075,
+    "min_premium": 25000,
+    "currency": "USD",
+    "surrender_schedule_years": 5,
+    "carrier_rating": "A+"
+  },
+  {
+    "id": "IN0021",
+    "type": "Fixed Annuity",
+    "guaranteed_min_return": 0.019,
+    "projected_return": 0.062,
+    "min_premium": 100000,
+    "currency": "USD",
+    "surrender_schedule_years": 15,
+    "carrier_rating": "AA"
+  },
+  {
+    "id": "IN0022",
+    "type": "Term Life",
+    "guaranteed_min_return": 0,
+    "projected_return": 0.04,
+    "min_premium": 10000,
+    "currency": "USD",
+    "surrender_schedule_years": 10,
+    "carrier_rating": "A+"
+  },
+  {
+    "id": "IN0023",
+    "type": "Fixed Annuity",
+    "guaranteed_min_return": 0.017,
+    "projected_return": 0.055,
+    "min_premium": 100000,
+    "currency": "USD",
+    "surrender_schedule_years": 5,
+    "carrier_rating": "AA+"
+  },
+  {
+    "id": "IN0024",
+    "type": "Key Person Insurance",
+    "guaranteed_min_return": 0,
+    "projected_return": 0.046,
+    "min_premium": 500000,
+    "currency": "USD",
+    "surrender_schedule_years": 7,
+    "carrier_rating": "A"
+  },
+  {
+    "id": "IN0025",
+    "type": "Term Life",
+    "guaranteed_min_return": 0,
+    "projected_return": 0.049,
+    "min_premium": 10000,
+    "currency": "USD",
+    "surrender_schedule_years": 10,
+    "carrier_rating": "AA-"
+  },
+  {
+    "id": "IN0026",
+    "type": "Indexed Annuity",
+    "guaranteed_min_return": 0.015,
+    "projected_return": 0.059,
+    "min_premium": 50000,
+    "currency": "USD",
+    "surrender_schedule_years": 5,
+    "carrier_rating": "AA+"
+  },
+  {
+    "id": "IN0027",
+    "type": "Offshore Life Wrapper",
+    "guaranteed_min_return": 0,
+    "projected_return": 0.048,
+    "min_premium": 1000000,
+    "currency": "USD",
+    "surrender_schedule_years": 15,
+    "carrier_rating": "AA+"
+  },
+  {
+    "id": "IN0028",
+    "type": "Whole Life",
+    "guaranteed_min_return": 0,
+    "projected_return": 0.043,
+    "min_premium": 50000,
+    "currency": "USD",
+    "surrender_schedule_years": 10,
+    "carrier_rating": "AA-"
+  },
+  {
+    "id": "IN0029",
+    "type": "Long-Term Care",
+    "guaranteed_min_return": 0,
+    "projected_return": 0.039,
+    "min_premium": 10000,
+    "currency": "USD",
+    "surrender_schedule_years": 10,
+    "carrier_rating": "A-"
+  },
+  {
+    "id": "IN0030",
+    "type": "Offshore Life Wrapper",
+    "guaranteed_min_return": 0,
+    "projected_return": 0.07,
+    "min_premium": 1000000,
+    "currency": "USD",
+    "surrender_schedule_years": 5,
+    "carrier_rating": "A-"
+  },
+  {
+    "id": "IN0031",
+    "type": "Indexed Annuity",
+    "guaranteed_min_return": 0.016,
+    "projected_return": 0.056,
+    "min_premium": 50000,
+    "currency": "USD",
+    "surrender_schedule_years": 7,
+    "carrier_rating": "A+"
+  },
+  {
+    "id": "IN0032",
+    "type": "Long-Term Care",
+    "guaranteed_min_return": 0,
+    "projected_return": 0.07,
+    "min_premium": 10000,
+    "currency": "USD",
+    "surrender_schedule_years": 10,
+    "carrier_rating": "A-"
+  },
+  {
+    "id": "IN0033",
+    "type": "Variable Annuity",
+    "guaranteed_min_return": 0.037,
+    "projected_return": 0.043,
+    "min_premium": 50000,
+    "currency": "USD",
+    "surrender_schedule_years": 10,
+    "carrier_rating": "AA+"
+  },
+  {
+    "id": "IN0034",
+    "type": "Offshore Life Wrapper",
+    "guaranteed_min_return": 0,
+    "projected_return": 0.058,
+    "min_premium": 1000000,
+    "currency": "USD",
+    "surrender_schedule_years": 10,
+    "carrier_rating": "AA-"
+  },
+  {
+    "id": "IN0035",
+    "type": "Variable Annuity",
+    "guaranteed_min_return": 0.027,
+    "projected_return": 0.061,
+    "min_premium": 50000,
+    "currency": "USD",
+    "surrender_schedule_years": 5,
+    "carrier_rating": "A"
+  },
+  {
+    "id": "IN0036",
+    "type": "Universal Life",
+    "guaranteed_min_return": 0,
+    "projected_return": 0.033,
+    "min_premium": 25000,
+    "currency": "USD",
+    "surrender_schedule_years": 5,
+    "carrier_rating": "AA-"
+  },
+  {
+    "id": "IN0037",
+    "type": "Key Person Insurance",
+    "guaranteed_min_return": 0,
+    "projected_return": 0.065,
+    "min_premium": 500000,
+    "currency": "USD",
+    "surrender_schedule_years": 7,
+    "carrier_rating": "A"
+  },
+  {
+    "id": "IN0038",
+    "type": "Indexed Annuity",
+    "guaranteed_min_return": 0.028,
+    "projected_return": 0.044,
+    "min_premium": 50000,
+    "currency": "USD",
+    "surrender_schedule_years": 5,
+    "carrier_rating": "A"
+  },
+  {
+    "id": "IN0039",
+    "type": "Key Person Insurance",
+    "guaranteed_min_return": 0,
+    "projected_return": 0.032,
+    "min_premium": 500000,
+    "currency": "USD",
+    "surrender_schedule_years": 7,
+    "carrier_rating": "AA"
+  },
+  {
+    "id": "IN0040",
+    "type": "Whole Life",
+    "guaranteed_min_return": 0,
+    "projected_return": 0.031,
+    "min_premium": 50000,
+    "currency": "USD",
+    "surrender_schedule_years": 5,
+    "carrier_rating": "AA"
+  },
+  {
+    "id": "IN0041",
+    "type": "Long-Term Care",
+    "guaranteed_min_return": 0,
+    "projected_return": 0.071,
+    "min_premium": 10000,
+    "currency": "USD",
+    "surrender_schedule_years": 5,
+    "carrier_rating": "A+"
+  },
+  {
+    "id": "IN0042",
+    "type": "Variable Universal Life",
+    "guaranteed_min_return": 0,
+    "projected_return": 0.051,
+    "min_premium": 25000,
+    "currency": "USD",
+    "surrender_schedule_years": 5,
+    "carrier_rating": "AA"
+  },
+  {
+    "id": "IN0043",
+    "type": "Whole Life",
+    "guaranteed_min_return": 0,
+    "projected_return": 0.046,
+    "min_premium": 50000,
+    "currency": "USD",
+    "surrender_schedule_years": 5,
+    "carrier_rating": "A+"
+  },
+  {
+    "id": "IN0044",
+    "type": "Fixed Annuity",
+    "guaranteed_min_return": 0.03,
+    "projected_return": 0.033,
+    "min_premium": 100000,
+    "currency": "USD",
+    "surrender_schedule_years": 5,
+    "carrier_rating": "AA+"
+  },
+  {
+    "id": "IN0045",
+    "type": "Long-Term Care",
+    "guaranteed_min_return": 0,
+    "projected_return": 0.059,
+    "min_premium": 10000,
+    "currency": "USD",
+    "surrender_schedule_years": 7,
+    "carrier_rating": "AA+"
+  },
+  {
+    "id": "IN0046",
+    "type": "Key Person Insurance",
+    "guaranteed_min_return": 0,
+    "projected_return": 0.062,
+    "min_premium": 500000,
+    "currency": "USD",
+    "surrender_schedule_years": 7,
+    "carrier_rating": "A-"
+  },
+  {
+    "id": "IN0047",
+    "type": "Universal Life",
+    "guaranteed_min_return": 0,
+    "projected_return": 0.069,
+    "min_premium": 25000,
+    "currency": "USD",
+    "surrender_schedule_years": 10,
+    "carrier_rating": "AA"
+  },
+  {
+    "id": "IN0048",
+    "type": "Fixed Annuity",
+    "guaranteed_min_return": 0.014,
+    "projected_return": 0.046,
+    "min_premium": 100000,
+    "currency": "USD",
+    "surrender_schedule_years": 15,
+    "carrier_rating": "AA-"
+  },
+  {
+    "id": "IN0049",
+    "type": "Long-Term Care",
+    "guaranteed_min_return": 0,
+    "projected_return": 0.057,
+    "min_premium": 10000,
+    "currency": "USD",
+    "surrender_schedule_years": 15,
+    "carrier_rating": "AA+"
+  }
+]

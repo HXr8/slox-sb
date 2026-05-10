@@ -1,0 +1,42 @@
+services:
+  postgres:
+    image: docker.io/postgres:16-alpine
+    container_name: slox-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-synapse}
+      POSTGRES_USER: ${POSTGRES_USER:-synapse}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD in .env}
+      POSTGRES_INITDB_ARGS: "--locale=C --encoding=UTF8"
+    volumes:
+      - ./data/postgres:/var/lib/postgresql/data:Z
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-synapse} -d ${POSTGRES_DB:-synapse}"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  synapse:
+    image: docker.io/matrixdotorg/synapse:latest
+    container_name: slox-synapse
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      SYNAPSE_SERVER_NAME: ${SLOX_SERVER_NAME:-slox.local}
+      SYNAPSE_REPORT_STATS: ${SYNAPSE_REPORT_STATS:-no}
+    ports:
+      - "${SLOX_BIND_ADDRESS:-0.0.0.0}:8008:8008"
+    volumes:
+      - ./data/synapse:/data:Z
+
+  element-web:
+    image: docker.io/vectorim/element-web:latest
+    user: root
+    container_name: slox-element-web
+    restart: unless-stopped
+    ports:
+      - "${ELEMENT_WEB_BIND:-0.0.0.0}:8080:80"
+    volumes:
+      - ./config/element/config.json:/app/config.json:ro,Z
